@@ -1,0 +1,37 @@
+{
+  "name": "deep-slice",
+  "version": "1.0.0",
+  "description": "Recursive Array.prototype.slice()",
+  "main": "index.js",
+  "jsnext:main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "npm run lint && jest",
+    "docs": "documentation readme index.js --section=Usage",
+    "lint": "standard index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisCarriere/deep-slice.git"
+  },
+  "author": "Denis Carriere <carriere.denis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DenisCarriere/deep-slice/issues"
+  },
+  "homepage": "https://github.com/DenisCarriere/deep-slice#readme",
+  "devDependencies": {
+    "documentation": "^4.0.0-beta.18",
+    "jest-cli": "^18.1.0",
+    "standard": "^8.6.0"
+  },
+  "keywords": [
+    "array",
+    "deep",
+    "recursive",
+    "slice"
+  ],
+  "jest": {
+    "verbose": true
+  }
+}
