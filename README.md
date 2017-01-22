@@ -25,8 +25,8 @@ $ npm install --save deep-slice
 ```javascript
 const deepSlice = require('deep-slice')
 
-deepSlice([[3, 2, 1], [4, 5, 6]], 0, 2)
-//=[[3, 2], [4, 5]]
+deepSlice([[10, 20, 30], [40, 50, 60]], 0, 2)
+//=[[10, 20], [40, 50]]
 ```
 
 Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)** Returns a section of an array.

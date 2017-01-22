@@ -6,8 +6,8 @@
  * @param {number} end The end of the specified portion of the array.
  * @returns {Array} Returns a section of an array.
  * @example
- * deepSlice([[3, 2, 1], [4, 5, 6]], 0, 2)
- * //=[[3, 2], [4, 5]]
+ * deepSlice([[10, 20, 30], [40, 50, 60]], 0, 2)
+ * //=[[10, 20], [40, 50]]
  */
 function deepSlice (items, start, end) {
   if (typeof (items[0]) !== 'object') { return items.slice(start, end) }
