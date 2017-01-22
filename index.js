@@ -11,6 +11,6 @@
  */
 function deepSlice (items, start, end) {
   if (typeof (items[0]) !== 'object') { return items.slice(start, end) }
-  return items.map(coord => deepSlice(coord, start, end))
+  return items.map(item => deepSlice(item, start, end))
 }
 module.exports = deepSlice
