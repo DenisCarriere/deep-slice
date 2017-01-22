@@ -16,14 +16,16 @@ $ npm install --save deep-slice
 
 **Parameters**
 
--   `items` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)** Array input
+-   `items` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)** List of items
 -   `start` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** The beginning of the specified portion of the array.
 -   `end` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** The end of the specified portion of the array.
 
 **Examples**
 
 ```javascript
-slice([[3, 2, 1], [4, 5, 6]], 0, 2)
+const deepSlice = require('deep-slice')
+
+deepSlice([[3, 2, 1], [4, 5, 6]], 0, 2)
 //=[[3, 2], [4, 5]]
 ```
 
