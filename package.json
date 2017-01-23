@@ -7,8 +7,8 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "npm run lint && jest --coverage",
-    "docs": "documentation readme index.js --section=Usage",
-    "lint": "standard index.js"
+    "lint": "standard",
+    "docs": "documentation readme index.js --section=Usage"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,11 @@
     "recursive",
     "slice"
   ],
+  "testEnvironment": "node",
   "jest": {
     "verbose": true
+  },
+  "standard": {
+    "env": "jest"
   }
 }
