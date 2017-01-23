@@ -6,7 +6,7 @@
   "jsnext:main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "npm run lint && jest",
+    "test": "npm run lint && jest --coverage",
     "docs": "documentation readme index.js --section=Usage",
     "lint": "standard index.js"
   },
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/DenisCarriere/deep-slice#readme",
   "devDependencies": {
+    "coveralls": "^2.11.15",
     "documentation": "^4.0.0-beta.18",
     "jest-cli": "^18.1.0",
     "standard": "^8.6.0"

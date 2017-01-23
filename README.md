@@ -1,7 +1,9 @@
 # [deep-slice](https://www.npmjs.com/package/deep-slice)
 
 [![Build Status](https://travis-ci.org/DenisCarriere/deep-slice.svg?branch=master)](https://travis-ci.org/DenisCarriere/deep-slice)
+[![Coverage Status](https://coveralls.io/repos/github/DenisCarriere/deep-slice/badge.svg?branch=master)](https://coveralls.io/github/DenisCarriere/deep-slice?branch=master)
 [![npm version](https://badge.fury.io/js/deep-slice.svg)](https://badge.fury.io/js/deep-slice)
+[![Known Vulnerabilities](https://snyk.io/test/github/deniscarriere/deep-slice/badge.svg)](https://snyk.io/test/github/deniscarriere/deep-slice)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DenisCarriere/deep-slice/master/LICENSE)
 
 > Recursive Array.prototype.slice()
