@@ -1,10 +1,11 @@
-# [deep-slice](https://www.npmjs.com/package/deep-slice)
+# deep-slice
 
 [![Build Status](https://travis-ci.org/DenisCarriere/deep-slice.svg?branch=master)](https://travis-ci.org/DenisCarriere/deep-slice)
 [![Coverage Status](https://coveralls.io/repos/github/DenisCarriere/deep-slice/badge.svg?branch=master)](https://coveralls.io/github/DenisCarriere/deep-slice?branch=master)
-[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![npm version](https://badge.fury.io/js/deep-slice.svg)](https://badge.fury.io/js/deep-slice)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DenisCarriere/deep-slice/master/LICENSE)
+<!-- Break -->
+[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 > Recursive Array.prototype.slice()
 
