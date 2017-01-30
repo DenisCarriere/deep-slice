@@ -11,13 +11,13 @@
 
 ## Install
 
-**NPM**
+**npm**
 
 ```bash
 $ npm install --save deep-slice
 ```
 
-**Web Browser**
+**web browser ([ES5](http://kangax.github.io/compat-table/es5/)**
 
 ```html
 <script src="https://unpkg.com/deep-slice/deep-slice.min.js"></script>
