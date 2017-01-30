@@ -1,14 +1,22 @@
 {
   "name": "deep-slice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursive Array.prototype.slice()",
   "main": "index.js",
   "jsnext:main": "index.js",
   "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "deep-slice.js",
+    "deep-slice.js.min"
+  ],
   "scripts": {
+    "prepublish": "npm run build",
     "test": "npm run lint && jest --coverage",
     "lint": "standard",
-    "docs": "documentation readme index.js --section=Usage"
+    "docs": "documentation readme index.js --section=Usage",
+    "build": "browserify index.js -s deepSlice > deep-slice.js && uglifyjs deep-slice.js -c -m > deep-slice.min.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +29,12 @@
   },
   "homepage": "https://github.com/DenisCarriere/deep-slice#readme",
   "devDependencies": {
+    "browserify": "^14.0.0",
     "coveralls": "^2.11.15",
     "documentation": "^4.0.0-beta.18",
     "jest-cli": "^18.1.0",
-    "standard": "^8.6.0"
+    "standard": "^8.6.0",
+    "uglifyjs": "^2.4.10"
   },
   "keywords": [
     "array",

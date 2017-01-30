@@ -10,7 +10,13 @@
  * //=[[10, 20], [40, 50]]
  */
 function deepSlice (items, start, end) {
-  if (typeof (items[0]) !== 'object') { return items.slice(start, end) }
-  return items.map(item => deepSlice(item, start, end))
+  if (typeof items[0] !== 'object') { return items.slice(start, end) }
+
+  var container = []
+  for (var i = 0; i < items.length; i++) {
+    var item = items[i]
+    container.push(deepSlice(item, start, end))
+  }
+  return container
 }
 module.exports = deepSlice

@@ -1,12 +1,12 @@
-const deepSlice = require('./')
+var deepSlice = require('./')
 
 // Variables
-const polygonZ = [[[1, 2, 3], [4, 5, 6]]]
-const lineZ = [[1, 2, 3], [4, 5, 6]]
-const pointZ = [1, 2, 3]
-const polygon = [[[1, 2], [4, 5]]]
-const line = [[1, 2], [4, 5]]
-const point = [1, 2]
+var polygonZ = [[[1, 2, 3], [4, 5, 6]]]
+var lineZ = [[1, 2, 3], [4, 5, 6]]
+var pointZ = [1, 2, 3]
+var polygon = [[[1, 2], [4, 5]]]
+var line = [[1, 2], [4, 5]]
+var point = [1, 2]
 
 describe('deepSlice', () => {
   test('polygonZ', () => expect(deepSlice(polygonZ, 0, 2)).toEqual(polygon))

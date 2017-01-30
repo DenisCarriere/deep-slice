@@ -11,9 +11,18 @@
 
 ## Install
 
+**NPM**
+
 ```bash
 $ npm install --save deep-slice
 ```
+
+**Web Browser**
+
+```html
+<script src="https://unpkg.com/deep-slice/deep-slice.min.js"></script>
+```
+
 
 ## Usage
 
