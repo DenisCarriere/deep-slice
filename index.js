@@ -11,7 +11,7 @@
  */
 function deepSlice (items, start, end) {
   if (typeof items[0] !== 'object') { return items.slice(start, end) }
-  return items.length.map(function (item) {
+  return items.map(function (item) {
     return deepSlice(item, start, end)
   })
 }
