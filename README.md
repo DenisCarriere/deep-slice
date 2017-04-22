@@ -1,5 +1,6 @@
 # deep-slice
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4085352d41014d31973399e6225502a2)](https://www.codacy.com/app/carriere-denis/deep-slice?utm_source=github.com&utm_medium=referral&utm_content=DenisCarriere/deep-slice&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/DenisCarriere/deep-slice.svg?branch=master)](https://travis-ci.org/DenisCarriere/deep-slice)
 [![Coverage Status](https://coveralls.io/repos/github/DenisCarriere/deep-slice/badge.svg?branch=master)](https://coveralls.io/github/DenisCarriere/deep-slice?branch=master)
 [![npm version](https://badge.fury.io/js/deep-slice.svg)](https://badge.fury.io/js/deep-slice)
